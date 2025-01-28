@@ -1,11 +1,11 @@
 # Daily Email Scheduler
 
-This project automatically sends a daily motivational email with attachments using Python and macOS's launchd service.
+This project automatically sends a daily email with attachments using Python and macOS's launchd service.
 
 ## Project Overview
 
 ### Purpose
-- Sends automated daily motivational emails
+- Sends automated daily emails
 - Includes vision board image and PDF attachments
 - Scheduled for 7:30 AM daily delivery
 - Uses Gmail SMTP for email delivery
