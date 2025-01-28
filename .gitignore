@@ -1,0 +1,13 @@
+# Logs
+*.log
+
+# Sensitive files
+*.pdf
+*.png
+config.py
+
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store 
