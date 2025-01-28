@@ -11,6 +11,7 @@ This project automatically sends a daily motivational email with attachments usi
 - Uses Gmail SMTP for email delivery
 
 ### File Structure
+```
 /Users/looremeta/My_Projects/email_scheduler/
 ├── send_email.py              # Main Python script
 ├── config.py                  # Configuration file (not in git)
@@ -19,6 +20,7 @@ This project automatically sends a daily motivational email with attachments usi
 ├── email.log                  # Success/general logs
 ├── email.error.log           # Error logs
 └── README.md                 # This documentation
+```
 
 ## Setup Process
 
