@@ -1,6 +1,7 @@
 # Daily Email Scheduler
 
 This project automatically sends a daily email with attachments using Python and macOS's launchd service.
+I built it to send myself a copy of my vision board each morning but it can be used to schedule send anything really.
 
 ## Project Overview
 
@@ -13,13 +14,15 @@ This project automatically sends a daily email with attachments using Python and
 ### File Structure
 ```
 /Users/looremeta/My_Projects/email_scheduler/
-├── send_email.py              # Main Python script
-├── config.py                  # Configuration file (not in git)
-├── 2025 jubilee-pilgrims of hope VISION Board.png
-├── Pilgrims of Hope.pdf
-├── email.log                  # Success/general logs
-├── email.error.log           # Error logs
-└── README.md                 # This documentation
+├── send_email.py                             # Main Python script
+├── config.py                                 # Configuration file (not in git)
+├── .env                                      # Environment variables
+├── 2025 jubilee-pilgrims of hope VISION Board.png # Image attachment 
+├── Pilgrims of Hope.pdf                       # PDF attachment 
+├── email.log                                  # Success/general logs 
+├── email.error.log                            # Error logs
+├── ~/Library/LaunchAgents/com.email.daily.plist # LaunchAgent for scheduling
+└── README.md                                  # This documentation
 ```
 
 ## Setup Process
