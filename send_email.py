@@ -16,7 +16,7 @@ Hope you're well.
 
 Whatever the situation right now, you got it! 
 
-Keep your head held up high - Hope does not disappoint!"""
+Keep your head held up high and remember your vision - Hope does not disappoint!"""
 
 # SMTP server details (for Gmail)
 smtp_server = "smtp.gmail.com"
