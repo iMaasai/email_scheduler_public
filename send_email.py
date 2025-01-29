@@ -9,14 +9,11 @@ from config import *
 # Email details
 sender_email = SENDER_EMAIL
 receiver_email = RECEIVER_EMAIL
-subject = "2025 Jubilee - Pilgrims of Hope"
-body = """Hey bro,
-
-Hope you're well.
-
-Whatever the situation right now, you got it! 
-
-Keep your head held up high and remember your vision - Hope does not disappoint!"""
+subject = "Pilgrims of Hope"
+body = """Dear...
+...
+Regards
+"""
 
 # SMTP server details (for Gmail)
 smtp_server = "smtp.gmail.com"
